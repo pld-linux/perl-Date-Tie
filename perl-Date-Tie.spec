@@ -11,7 +11,8 @@ Summary(pl):	Date::Tie - u³atwienia do dat ISO
 Name:		perl-Date-Tie
 Version:	0.17
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4039e413eb514047eb1d2e8d84304091
