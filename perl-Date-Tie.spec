@@ -4,8 +4,8 @@
  				# February - except leap years)
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Date
-%define		pnam	Tie
+%define	pdir	Date
+%define	pnam	Tie
 Summary:	Date::Tie - ISO dates made easy
 Summary(pl):	Date::Tie - u³atwienia do dat ISO
 Name:		perl-Date-Tie
