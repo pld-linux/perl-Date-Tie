@@ -1,7 +1,7 @@
 #
 # Conditional build:
-# _with_tests - perform "make test" (tests 23, 25-30 from more.t fail in
-# 		February - except leap years)
+%bcond_with	tests		# perform "make test" (tests 23, 25-30 from more.t fail in
+ 				# February - except leap years)
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Date
@@ -44,7 +44,7 @@ godziny, dziesiêtne minuty i dziesiêtne sekundy) i strefami czasowymi.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{?_with_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
