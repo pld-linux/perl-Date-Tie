@@ -2,12 +2,12 @@
 # Conditional build:
 # _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Date
-%define	pnam	Tie
+%define		pdir	Date
+%define		pnam	Tie
 Summary:	Date::Tie - ISO dates made easy
 #Summary(pl):	
 Name:		perl-Date-Tie
-Version:	0.14_01
+Version:	0.14
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
