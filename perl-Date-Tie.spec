@@ -9,12 +9,12 @@
 Summary:	Date::Tie - ISO dates made easy
 Summary(pl):	Date::Tie - u³atwienia do dat ISO
 Name:		perl-Date-Tie
-Version:	0.16
+Version:	0.17
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b27e7bc7f52d3084176a3147ecb29b8e
+# Source0-md5:	4039e413eb514047eb1d2e8d84304091
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
