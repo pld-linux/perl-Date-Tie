@@ -41,7 +41,7 @@ godziny, dziesiêtne minuty i dziesiêtne sekundy) i strefami czasowymi.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{?_with_tests:%{__make} test}
