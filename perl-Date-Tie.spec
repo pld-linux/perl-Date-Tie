@@ -7,7 +7,7 @@
 Summary:	Date::Tie - ISO dates made easy
 Summary(pl):	Date::Tie - u³atwienia do dat ISO
 Name:		perl-Date-Tie
-Version:	0.14
+Version:	0.15
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
