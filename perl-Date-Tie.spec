@@ -7,7 +7,7 @@
 %define		pdir	Date
 %define		pnam	Tie
 Summary:	Date::Tie - ISO dates made easy
-Summary(pl):	Date::Tie - u³atwienia do dat ISO
+Summary(pl.UTF-8):   Date::Tie - uÅ‚atwienia do dat ISO
 Name:		perl-Date-Tie
 Version:	0.17
 Release:	1
@@ -29,13 +29,13 @@ It works with calendar dates (year-month-day), ordinal dates
 decimal fractions (decimal hours, decimal minutes and decimal
 seconds), and time-zones.
 
-%description -l pl
-Date::Tie to próba uproszczenia sk³adni operacji na datach.
+%description -l pl.UTF-8
+Date::Tie to prÃ³ba uproszczenia skÅ‚adni operacji na datach.
 
-Modu³ dzia³a z datami kalendarzowymi (rok-miesi±c-dzieñ), datami
-porz±dkowymi (rok-dzieñ), datami tygodniowymi (rok-tydzieñ-dzieñ),
-czasem (godzina:minuta:sekunda), u³amkami dziesiêtnymi (dziesiêtne
-godziny, dziesiêtne minuty i dziesiêtne sekundy) i strefami czasowymi.
+ModuÅ‚ dziaÅ‚a z datami kalendarzowymi (rok-miesiÄ…c-dzieÅ„), datami
+porzÄ…dkowymi (rok-dzieÅ„), datami tygodniowymi (rok-tydzieÅ„-dzieÅ„),
+czasem (godzina:minuta:sekunda), uÅ‚amkami dziesiÄ™tnymi (dziesiÄ™tne
+godziny, dziesiÄ™tne minuty i dziesiÄ™tne sekundy) i strefami czasowymi.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
