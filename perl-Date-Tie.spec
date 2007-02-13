@@ -7,7 +7,7 @@
 %define		pdir	Date
 %define		pnam	Tie
 Summary:	Date::Tie - ISO dates made easy
-Summary(pl.UTF-8):   Date::Tie - ułatwienia do dat ISO
+Summary(pl.UTF-8):	Date::Tie - ułatwienia do dat ISO
 Name:		perl-Date-Tie
 Version:	0.17
 Release:	1
