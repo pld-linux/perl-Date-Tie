@@ -9,13 +9,13 @@
 Summary:	Date::Tie - ISO dates made easy
 Summary(pl.UTF-8):	Date::Tie - ułatwienia do dat ISO
 Name:		perl-Date-Tie
-Version:	0.17
+Version:	0.18
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4039e413eb514047eb1d2e8d84304091
+# Source0-md5:	30ead85ff14cc81a3cfa8bb0862435c4
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
