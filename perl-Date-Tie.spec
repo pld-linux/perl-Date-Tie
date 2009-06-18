@@ -1,7 +1,6 @@
 #
 # Conditional build:
-%bcond_with	tests		# perform "make test" (tests 23, 25-30 from more.t fail in
- 				# February - except leap years)
+%bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Date
@@ -9,13 +8,13 @@
 Summary:	Date::Tie - ISO dates made easy
 Summary(pl.UTF-8):	Date::Tie - ułatwienia do dat ISO
 Name:		perl-Date-Tie
-Version:	0.18
+Version:	0.20
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Date/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	30ead85ff14cc81a3cfa8bb0862435c4
+# Source0-md5:	875a1ec893bf3289d88fb62cc9c6dfe1
 URL:		http://search.cpan.org/dist/Date-Tie/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
