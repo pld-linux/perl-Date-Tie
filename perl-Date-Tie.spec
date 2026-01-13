@@ -8,7 +8,7 @@ Summary:	Date::Tie - ISO dates made easy
 Summary(pl.UTF-8):	Date::Tie - ułatwienia do dat ISO
 Name:		perl-Date-Tie
 Version:	0.20
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
